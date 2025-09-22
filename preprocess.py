@@ -9,7 +9,7 @@ from langchain.embeddings import HuggingFaceEmbeddings
 
 
 # Set API key (use env in production)
-os.environ["GOOGLE_API_KEY"] = "AIzaSyBiMb2wPI0vRxT6WB9XYaNBd7Xbrykf__I"
+os.environ["GOOGLE_API_KEY"] = "API"
 
 CHROMA_DIR = "chroma_storage"
 URLS = [
