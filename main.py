@@ -11,7 +11,7 @@ from langchain_core.messages import HumanMessage, AIMessage
 import os
 
 
-os.environ["GOOGLE_API_KEY"] = "AIzaSyBiMb2wPI0vRxT6WB9XYaNBd7Xbrykf__I"
+os.environ["GOOGLE_API_KEY"] = "API"
 # FastAPI app
 app = FastAPI(title="Adithya College Chatbot API")
 
